@@ -15,7 +15,7 @@ const Section1 = () => {
                         <p className=' text-xl font-RedHat mb-2.5 font-medium leading-8'>
                             Join our supportive community for expert mental health resources. Access personalized therapy, self-care tips, and wellness tools.
                         </p>
-                        <button className='bg-primary p-5 rounded-full text-lg text-white'>
+                        <button className='bg-primary p-4 rounded-full text-lg text-white'>
                             First Session Free
                         </button>
                         <div className='flex items-center mt-8 bg-white px-2 py-2 rounded-full justify-between'>
@@ -26,6 +26,7 @@ const Section1 = () => {
                                 type="text"
                                 placeholder='City, Zip Code'
                                 className='border-l border-ashh pl-2 ml-2 outline-none flex-1'
+                                
                             />
                             <button className='flex items-center gap-2 bg-primary py-4 px-5 rounded-full text-white'>
                                 Search
@@ -33,7 +34,7 @@ const Section1 = () => {
                             </button>
                         </div>
                     </div>
-                    <div className='border border-black'>
+                    <div className='w-[550px]'>
                         <img src={Frame49} alt="" />
                     </div>
                 </div>

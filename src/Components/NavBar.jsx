@@ -3,9 +3,9 @@ import Logo from '../assets/Images/Logo.png'
 const NavBar = () => {
     return (
         <>
-            <section className='flex items-center justify-between bg-secondary/[.05] relative top-2 w-full border-2 border-black'>
+            <section className='flex items-center justify-between bg-secondary/[.05] relative top-2 w-full'>
                 <div>
-                    <img src={Logo} alt="" className='border border-black h-20' width={200} />
+                    <img src={Logo} alt="" className='h-20' width={200} />
                 </div>
                 <div>
                     <ul className='flex font-RedHat items-center gap-x-6'>
