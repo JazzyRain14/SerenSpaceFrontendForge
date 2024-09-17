@@ -22,6 +22,7 @@ const Section1 = () => {
                             <select name="mySelect" className=' pr-6 outline-none'>
                                 <option value="Therapist">Therapist</option>
                             </select>
+                            
                             <input
                                 type="text"
                                 placeholder='City, Zip Code'
