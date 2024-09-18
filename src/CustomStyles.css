@@ -1,0 +1,15 @@
+/* Custom border radius for cards */
+.custom-card-radius {
+    border-radius: 3rem; /* Adjust as needed */
+  }
+  
+  /* Custom border radius for buttons */
+  .custom-button-radius {
+    border-radius: 3rem; /* Adjust as needed */
+  }
+
+  /* custom border radius for arrows */
+  .custom-arrow-radius {
+    border-radius:  10rem;
+  }
+  

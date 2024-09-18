@@ -1,12 +1,13 @@
 import React from "react";
+import "../CustomStyles.css";
 
-const App = () => {
+const Section2 = () => {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center bg-white">
       <h1 className="text-5xl font-LibreBold mb-20 text-black">Who we serve</h1>
       <div className="flex justify-between items-center space-x-4">
         {/* Left Arrow */}
-        <button className="bg-primary text-white w-10 h-10 rounded-full flex items-center justify-center">
+        <button className="bg-primary text-white w-10 h-10 custom-button-radius flex items-center justify-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -26,7 +27,7 @@ const App = () => {
         {/* Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {/* Individual Card */}
-          <div className="border-2 border-primary p-6 rounded-lg text-left h-60 flex flex-col">
+          <div className="border-2 border-primary p-6 custom-card-radius text-left h-60 flex flex-col">
             <h2 className="font-LibreBold text-xl mb-2 text-brown-black">
               Individual
             </h2>
@@ -35,13 +36,13 @@ const App = () => {
                 If it will be just you in the sessions
               </p>
             </div>
-            <button className="bg-transparent text-primary border-2 border-primary px-4 py-2 rounded-lg w-32 self-start">
+            <button className="bg-transparent text-primary border-2 border-primary px-4 py-2 custom-button-radius w-32 self-start">
               Get Started
             </button>
           </div>
 
           {/* Couple Card */}
-          <div className="border-2 border-primary p-6 rounded-lg text-left h-60 flex flex-col">
+          <div className="border-2 border-primary p-6 custom-card-radius text-left h-60 flex flex-col">
             <h2 className="font-LibreBold text-xl mb-2 text-brown-black">
               Couple
             </h2>
@@ -50,13 +51,13 @@ const App = () => {
                 If you will be with your partner in the sessions
               </p>
             </div>
-            <button className="bg-transparent text-primary border-2 border-primary px-4 py-2 rounded-lg w-32 self-start">
+            <button className="bg-transparent text-primary border-2 border-primary px-4 py-2 custom-button-radius w-32 self-start">
               Get Started
             </button>
           </div>
 
           {/* Friends Card */}
-          <div className="border-2 border-primary p-6 rounded-lg text-left h-60 flex flex-col">
+          <div className="border-2 border-primary p-6 custom-card-radius text-left h-60 flex flex-col">
             <h2 className="font-LibreBold text-xl mb-2 text-brown-black">
               Friends
             </h2>
@@ -65,14 +66,14 @@ const App = () => {
                 If you will be with your friend in the sessions
               </p>
             </div>
-            <button className="bg-transparent text-primary border-2 border-primary px-4 py-2 rounded-lg w-32 self-start">
+            <button className="bg-transparent text-primary border-2 border-primary px-4 py-2 custom-button-radius w-32 self-start">
               Get Started
             </button>
           </div>
         </div>
 
         {/* Right Arrow */}
-        <button className="bg-primary text-white w-10 h-10 rounded-full flex items-center justify-center">
+        <button className="bg-primary text-white w-10 h-10 custom-button-radius flex items-center justify-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -93,4 +94,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Section2;
