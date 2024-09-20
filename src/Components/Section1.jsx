@@ -8,25 +8,24 @@ const Section1 = () => {
             <NavBar />
             <div className='flex max-tablet:flex-col-reverse flex-row justify-between h-full my-5 max-md:gap-6 gap-10 items-center'>
                 {/* Text */}
-                <div className='flex'>
-                    <div className='flex-1 max-tablet:text-center'>
-                        <h1 className='text-[60px] max-lg:text-[45px] max-md:text-[35px] font-LibreBold mb-2.5 leading-[85px] max-lg:leading-[40px]'>
-                            Find Your Peace of Mind with SerenSpace
-                        </h1>
-                        <p className='max-lg:text-[16x] lg:text-[20px] font-RedHat mb-2.5 font-medium max-md:leading-6 min-md:leading-8'>
-                            Join our supportive community for expert mental health resources. Access personalized therapy, self-care tips, and wellness tools.
-                        </p>
-                        <button className='bg-primary max-md:p-2.5 md:p-4 rounded-full md:text-lg text-white'>
-                            First Session Free
-                        </button>
-                    </div>
-
+                {/* <div className='flex'> */}
+                <div className='flex-1 max-tablet:text-center'>
+                    <h1 className='text-[60px] max-lg:text-[45px] max-md:text-[35px] font-LibreBold mb-2.5 leading-[85px] max-lg:leading-[40px]'>
+                        Find Your Peace of Mind with SerenSpace
+                    </h1>
+                    <p className='max-lg:text-[16x] lg:text-[20px] font-RedHat mb-2.5 font-medium max-md:leading-6 min-md:leading-8'>
+                        Join our supportive community for expert mental health resources. Access personalized therapy, self-care tips, and wellness tools.
+                    </p>
+                    <button className='bg-primary max-md:p-2.5 md:p-4 rounded-full md:text-lg text-white'>
+                        First Session Free
+                    </button>
                 </div>
+
+                {/* </div> */}
                 {/* image */}
-                <div className='flex items-center h-full w-full'>
+                <div className='flex items-center h-full w-1/2 max-tablet:w-full'>
                     <img src={Frame49} alt="" className='w-full' />
                 </div>
-
             </div>
             {/* input */}
             <div className=' flex tablet:w-1/2 max-tablet:w-full items-center bg-white px-2 md:py-2 max-md:py-1 rounded-full justify-between'>
