@@ -24,10 +24,10 @@ const Section3 = () => {
               <h3 className="text-brown-black font-LibreBold text-xl mb-2 relative z-10">
                 01
               </h3>
-              <h4 className="text-brown-black font-LibreBold text-lg mb-2">
+              <h4 className="text-black font-LibreBold text-lg mb-2">
                 Create Your Profile & Take an Assessment
               </h4>
-              <p className="text-brown-black font-LibreRegular">
+              <p className="text-black font-LibreRegular">
                 Sign up to create a personalized profile and complete a wellness
                 assessment to help us understand your mental health status and
                 goals.
@@ -35,13 +35,13 @@ const Section3 = () => {
             </div>
 
             <div className="mb-10 relative">
-              <h3 className="text-brown-black font-LibreBold text-xl mb-2 relative z-10">
+              <h3 className="text-black font-LibreBold text-xl mb-2 relative z-10">
                 02
               </h3>
-              <h4 className="text-brown-black font-LibreBold text-lg mb-2">
+              <h4 className="text-black font-LibreBold text-lg mb-2">
                 Get Matched & Schedule Sessions
               </h4>
-              <p className="text-brown-black font-LibreRegular">
+              <p className="text-black font-LibreRegular">
                 Get matched with a licensed therapist based on your assessment
                 and book therapy sessions at convenient times, either virtually
                 or in-person.
@@ -49,13 +49,13 @@ const Section3 = () => {
             </div>
 
             <div className="mb-10 relative">
-              <h3 className="text-brown-black font-LibreBold text-xl mb-2 relative z-10">
+              <h3 className="text-black font-LibreBold text-xl mb-2 relative z-10">
                 03
               </h3>
-              <h4 className="text-brown-black font-LibreBold text-lg mb-2">
+              <h4 className="text-black font-LibreBold text-lg mb-2">
                 Access Resources, Track Progress & Get 24/7 Support
               </h4>
-              <p className="text-brown-black font-LibreRegular">
+              <p className="text-black font-LibreRegular">
                 Explore resources like articles, videos, and interactive tools,
                 join online support groups, and track your mental health journey
                 with our tools. Reach out to our helpline or chat service
