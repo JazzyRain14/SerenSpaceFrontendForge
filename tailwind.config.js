@@ -19,8 +19,13 @@ export default {
         'LibreRegular': ['LibreRegular', 'sans-serif'],
         'LibreBold': ['LibreBold', 'sans-serif'],
         'RedHat': ['RedHat', 'sans-serif'],
+      },
+      screens: {
+        'mobile': '600px',
+        'tablet': '850px',
+        'laptop': '1024px',
       }
     },
-  },
-  plugins: [],
+    plugins: [],
+  }
 }

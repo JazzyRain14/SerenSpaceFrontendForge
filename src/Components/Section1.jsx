@@ -1,48 +1,51 @@
-import React from 'react'
-import NavBar from './NavBar'
-import Frame49 from '../assets/Images/Frame 49.png'
-import Scope from '../assets/Images/Search.png'
+import React from "react";
+import NavBar from "./NavBar";
+import Frame49 from "../assets/Images/Frame 49.png";
+import Scope from "../assets/Images/Search.png";
 const Section1 = () => {
-    return (
-        <div className='h-screen'>
-            <section className='bg-hero-pattern h-full w-full bg-no-repeat bg-center px-[78px] bg-cover'>
-                <NavBar />
-                <div className='flex flex-row justify-between my-5 gap-10 items-center'>
-                    <div className='w-[670px]'>
-                        <h1 className='text-[60px] font-LibreBold mb-2.5 break-normal  leading-[85px]'>
-                            Find Your Peace of Mind with SerenSpace
-                        </h1>
-                        <p className=' text-xl font-RedHat mb-2.5 font-medium leading-8'>
-                            Join our supportive community for expert mental health resources. Access personalized therapy, self-care tips, and wellness tools.
-                        </p>
-                        <button className='bg-primary p-4 rounded-full text-lg text-white'>
-                            First Session Free
-                        </button>
-                        <div className='flex items-center mt-8 bg-white px-2 py-2 rounded-full justify-between'>
-                            <select name="mySelect" className=' pr-6 outline-none'>
-                                <option value="Therapist">Therapist</option>
-                            </select>
-                            
-                            <input
-                                type="text"
-                                placeholder='City, Zip Code'
-                                className='border-l border-ashh pl-2 ml-2 outline-none flex-1'
-                                
-                            />
-                            <button className='flex items-center gap-2 bg-primary py-4 px-5 rounded-full text-white'>
-                                Search
-                                <img src={Scope} alt="" width={20} />
-                            </button>
-                        </div>
-                    </div>
-                    <div className='w-[550px]'>
-                        <img src={Frame49} alt="" />
-                    </div>
-                </div>
-
-            </section>
+  return (
+    <section className="flex flex-col bg-hero-pattern h-auto w-full bg-no-repeat bg-center max-lg:px-[28px] lg:px-[58px] bg-cover py-5">
+      <NavBar />
+      <div className="flex max-tablet:flex-col-reverse flex-row justify-between h-full my-5 max-md:gap-6 gap-10 items-center">
+        {/* Text */}
+        {/* <div className='flex'> */}
+        <div className="flex-1 max-tablet:text-center">
+          <h1 className="text-[60px] max-lg:text-[45px] max-md:text-[35px] font-LibreBold mb-2.5 leading-[85px] max-lg:leading-[40px]">
+            Find Your Peace of Mind with SerenSpace
+          </h1>
+          <p className="max-lg:text-[16x] lg:text-[20px] font-RedHat mb-2.5 font-medium max-md:leading-6 min-md:leading-8">
+            Join our supportive community for expert mental health resources.
+            Access personalized therapy, self-care tips, and wellness tools.
+          </p>
+          <button className="bg-primary max-md:p-2.5 md:p-4 rounded-full md:text-lg text-white">
+            First Session Free
+          </button>
         </div>
-    )
-}
 
-export default Section1
+        {/* </div> */}
+        {/* image */}
+        <div className="flex items-center h-full w-1/2 max-tablet:w-full">
+          <img src={Frame49} alt="" className="w-full" />
+        </div>
+      </div>
+      {/* input */}
+      <div className=" flex tablet:w-1/2 max-tablet:w-full items-center bg-white px-2 md:py-2 max-md:py-1 rounded-full justify-between">
+        <select name="mySelect" className=" pr-6 outline-none">
+          <option value="Therapist">Therapist</option>
+        </select>
+
+        <input
+          type="text"
+          placeholder="City, Zip Code"
+          className="border-l border-ashh px-2 ml-2 outline-none flex-1"
+        />
+        <button className="flex items-center justify-center gap-2 max-md:gap-1 bg-primary py-4 px-5 rounded-full text-white">
+          Search
+          <img src={Scope} alt="" className="max-md:w-[16px] md:w-[20px]" />
+        </button>
+      </div>
+    </section>
+  );
+};
+
+export default Section1;
