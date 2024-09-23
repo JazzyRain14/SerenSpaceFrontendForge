@@ -1,6 +1,6 @@
-import React from 'react'
-import Frame38 from '../assets/Images/Frame38.png'
-import invertComma from '../assets/Images/invertComma.png'
+import React from "react";
+import Frame38 from "../assets/Images/Frame38.png";
+import invertComma from "../assets/Images/invertComma.png";
 const Section7 = () => {
     return (
         <div className='h-full w-full py-10 px-[28px]'>
@@ -46,4 +46,4 @@ const Section7 = () => {
     )
 }
 
-export default Section7
+export default Section7;

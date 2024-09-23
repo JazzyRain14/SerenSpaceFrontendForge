@@ -3,9 +3,7 @@ import Frame16 from "../assets/Images/Frame 16.png";
 
 const Section3 = () => {
   return (
-    <div
-      className="bg-hero-pattern py-16 px-[78px] bg-cover bg-center opacity-90"
-    >
+    <div className="bg-hero-pattern py-16 px-[78px] bg-cover bg-center opacity-90">
       <div className="">
         <h2 className="text-brown-black font-LibreBold text-3xl mb-6">
           How it SerenSpace Works
@@ -43,9 +41,9 @@ const Section3 = () => {
               </h4>
             </div>
             <p className="text-brown-black font-RedHat text-sm  pl-2">
-              Get matched with a licensed therapist based on your assessment
-              and book therapy sessions at convenient times, either virtually
-              or in-person.
+              Get matched with a licensed therapist based on your assessment and
+              book therapy sessions at convenient times, either virtually or
+              in-person.
             </p>
           </div>
           <div className="flex flex-col">
@@ -60,8 +58,8 @@ const Section3 = () => {
             <p className="text-brown-black font-RedHat text-sm  pl-2">
               Explore resources like articles, videos, and interactive tools,
               join online support groups, and track your mental health journey
-              with our tools. Reach out to our helpline or chat service
-              anytime for immediate support.
+              with our tools. Reach out to our helpline or chat service anytime
+              for immediate support.
             </p>
           </div>
         </div>

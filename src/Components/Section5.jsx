@@ -1,7 +1,7 @@
-import React from 'react'
-import Pro from '../assets/Images/Pro.png'
-import Calendar from '../assets/Images/Calendar.png'
-import Questionmark from '../assets/Images/Questionmark.png'
+import React from "react";
+import Pro from "../assets/Images/Pro.png";
+import Calendar from "../assets/Images/Calendar.png";
+import Questionmark from "../assets/Images/Questionmark.png";
 
 const Section5 = () => {
     return (
@@ -51,4 +51,4 @@ const Section5 = () => {
     )
 }
 
-export default Section5
+export default Section5;

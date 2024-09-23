@@ -1,8 +1,8 @@
-import React from 'react'
-import Therapist1 from '../assets/Images/Therapist1.png'
-import Therapist2 from '../assets/Images/Therapist2.png'
-import Therapist3 from '../assets/Images/Therapist3.png'
-import Therapist4 from '../assets/Images/Therapist4.png'
+import React from "react";
+import Therapist1 from "../assets/Images/Therapist1.png";
+import Therapist2 from "../assets/Images/Therapist2.png";
+import Therapist3 from "../assets/Images/Therapist3.png";
+import Therapist4 from "../assets/Images/Therapist4.png";
 const Section6 = () => {
     return (
         <div className='h-full w-full py-10 px-[28px] bg-secondary'>
@@ -52,4 +52,4 @@ const Section6 = () => {
     )
 }
 
-export default Section6
+export default Section6;

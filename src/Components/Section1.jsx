@@ -1,7 +1,7 @@
-import React from 'react'
-import NavBar from './NavBar'
-import Frame49 from '../assets/Images/Frame 49.png'
-import Scope from '../assets/Images/Search.png'
+import React from "react";
+import NavBar from "./NavBar";
+import Frame49 from "../assets/Images/Frame 49.png";
+import Scope from "../assets/Images/Search.png";
 const Section1 = () => {
     return (
         <section className='flex flex-col bg-hero-pattern h-auto w-full bg-no-repeat bg-center max-lg:px-[28px] max-sm:px-[10px] lg:px-[58px] bg-cover py-5'>
@@ -49,4 +49,4 @@ const Section1 = () => {
     )
 }
 
-export default Section1
+export default Section1;
