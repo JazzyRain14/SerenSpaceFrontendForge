@@ -7,12 +7,12 @@ import Therapistphotoshoot4 from "../assets/Images/Therapist Photoshoot Idea 4.p
 
 const Section4 = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-white">
-      <h1 className="text-5xl font-LibreBold mb-40 mt-40 text-black text-center">
+    <div className="flex flex-col bg-white">
+      <h1 className="text-5xl max-md:text-3xl py-24 font-LibreBold text-black text-center">
         Meet our Consultant Experts
       </h1>
-      <div className="relative flex items-center w-full px-10">
-        <button className="absolute left-32 bg-secondary text-white w-16 h-16 rounded-full flex items-center justify-center">
+      <div className="relative flex-1 flex items-center w-full px-10 max-sm:px-2">
+        <button className="absolute left-16 bg-secondary text-white w-16 h-16 rounded-full flex items-center justify-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -29,30 +29,30 @@ const Section4 = () => {
           </svg>
         </button>
 
-        <div className="flex w-full justify-center">
+        <div className="flex items-center w-full overflow-x-auto scroll-smooth space-x-2 justify-around transition-all duration-300 ease-in-out">
           <img
             src={Therapistphotoshoot1}
             alt="Consultant 1"
-            className="w-[300px] h-[350px] rounded-lg"
+            className="lg:w-[300px] transition-all duration-300 ease-in-out md:w-[150px] max-md:w-[150px] h-auto"
           />
           <img
             src={Therapistphotoshoot2}
             alt="Consultant 2"
-            className="w-[300px] h-[350px] rounded-lg"
+            className="lg:w-[300px] transition-all duration-300 ease-in-out md:w-[150px] max-md:w-[150px] h-auto"
           />
           <img
             src={Therapistphotoshoot3}
             alt="Consultant 3"
-            className="w-[300px] h-[350px] rounded-lg"
+            className="lg:w-[300px] transition-all duration-300 ease-in-out md:w-[150px] max-md:w-[150px] h-auto"
           />
           <img
             src={Therapistphotoshoot4}
             alt="Consultant 4"
-            className="w-[300px] h-[350px] rounded-lg"
+            className="lg:w-[300px] transition-all duration-300 ease-in-out md:w-[150px] max-md:w-[150px] h-auto"
           />
         </div>
 
-        <button className="absolute right-32 bg-secondary text-white w-16 h-16 rounded-full flex items-center justify-center">
+        <button className="absolute right-16 bg-secondary text-white w-16 h-16 rounded-full flex items-center justify-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

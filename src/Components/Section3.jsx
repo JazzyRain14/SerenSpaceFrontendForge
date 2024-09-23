@@ -63,7 +63,7 @@ const Section3 = () => {
             </p>
           </div>
         </div>
-        <div className="border border-black flex items-center w-1/2 h-full max-md:hidden">
+        <div className="flex items-center w-1/2 h-full max-md:hidden">
           <img
             src={Frame16}
             alt="People in therapy session"

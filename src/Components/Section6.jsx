@@ -7,7 +7,7 @@ const Section6 = () => {
     return (
         <div className='h-full w-full py-10 px-[28px] bg-secondary'>
             <div className='flex items-center justify-between mb-6'>
-                <h1 className='w-[65%] font-LibreBold max-sm:text-[18px] text-[28px]'>Whatever the challenge is, it can be solved.</h1>
+                <h1 className='w-[65%] font-LibreBold max-sm:text-[18px] text-5xl'>Whatever the challenge is, it can be solved.</h1>
                 <button className='bg-primary py-3 px-5 max-sm:px-3 max-sm:text-sm rounded-full font-RedHat text-white'>Explore all</button>
             </div>
             <div className='w-full grid grid-cols-2 place-items-center lg:grid-cols-4 gap-5'>

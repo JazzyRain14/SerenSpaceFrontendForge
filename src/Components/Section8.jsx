@@ -5,40 +5,26 @@ import Footer from "./Footer.jsx";
 
 const Section8 = () => {
   return (
-    <div
-      className="bg-[#f3e8f1] py-16 px-8 flex flex-col min-h-screen"
-      style={{
-        backgroundImage: `url(${BackgroundImage})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
-      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between space-y-8 lg:space-y-0 lg:space-x-8">
-        <div className="flex-shrink-0">
-          <img
-            src={GiftImage}
-            alt="Gift a Membership"
-            className="w-[400px] h-[400px] rounded-lg shadow-lg ml-40 mt-3"
-          />
-        </div>
+    <div className="bg-hero-pattern px-[35px] pt-[75px] max-sm:px-[15px] flex justify-between space-x-14 max-sm:space-x-2">
+      <div className="w-1/2 h-auto flex items-end justify-center">
+        <img
+          src={GiftImage}
+          alt="Gift a Membership"
+          className="h-auto lg:w-[500px]"
+        />
+      </div>
 
-        <div className="lg:w-1/2 flex flex-col justify-center">
-          <h1 className="text-4xl lg:text-5xl font-bold font-Libre-Bold text-black mb-4 leading-tight">
-            <span className="block">Gift the gift of a</span>
-            <span className="block">SerenSpace</span>
-            <span className="block">Membership</span>
-          </h1>
-          <p className="text-lg mb-8 mt-8 text-black font-LibreRegular font-semibold">
-            <span className="block">
-              Therapy is one of the most meaningful gifts you can give to{" "}
-            </span>
-            <span className="block">your friends and loved ones. </span>
-          </p>
+      <div className="flex flex-col max-md:space-y-5 space-y-10 justify-start max-md:justify-end max-md:mb-6 flex-1">
+        <h1 className="text-5xl max-md:text-2xl max-tablet:text-[28px] font-bold font-Libre-Bold text-black">
+          Gift the gift of a SerenSpace Membership
+        </h1>
+        <p className="text-lg my-2 max-sm:text-sm text-black font-RedHat font-semibold">
+          Therapy is one of the most meaningful gifts you can give to your friends and loved ones.
+        </p>
 
-          <button className="mt-16 w-1/2 bg-[#a73d85] text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#882d6d] transition duration-300 ease-in-out">
-            Gift a Membership
-          </button>
-        </div>
+        <button className="w-1/2 max-md:w-full bg-[#a73d85] text-white px-8 max-sm:p-2 py-4 rounded-full text-lg font-semibold hover:bg-[#882d6d] transition duration-300 ease-in-out">
+          Gift a Membership
+        </button>
       </div>
     </div>
   );
