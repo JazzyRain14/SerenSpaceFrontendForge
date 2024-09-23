@@ -16,7 +16,7 @@ const Section3 = () => {
       </div>
 
       <div className="flex gap-[5rem] justify-between items-center">
-        <div className="border-l-2 border-primary flex flex-col justify-center items-center gap-4 py-2 max-w-[400px] w-full">
+        <div className=" border-l-2 border-primary flex-1 space-y-4 py-2">
 
           <div className="flex flex-col">
             <div className="border-l-4 border-primary pl-2">
@@ -65,14 +65,14 @@ const Section3 = () => {
             </p>
           </div>
         </div>
-
-        <div className="flex justify-center flex-1 w-[550px]">
+        <div className="border border-black flex items-center w-1/2 h-full max-md:hidden">
           <img
             src={Frame16}
             alt="People in therapy session"
-            className="w-auto h-auto max-w-full"
+            className="w-full"
           />
         </div>
+        {/* flex items-center h-full w-1/2 max-tablet:w-full */}
       </div>
     </div>
   );

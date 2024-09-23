@@ -2,15 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face{
-  font-family:'LibreBold';
+
+
+@font-face {
+  font-family: 'LibreBold';
   src: url('./assets/Fonts/LibreCaslonText-Bold.ttf')
 }
-@font-face{
-  font-family:'LibreRegular';
+
+@font-face {
+  font-family: 'LibreRegular';
   src: url('./assets/Fonts/LibreCaslonText-Regular.ttf')
 }
-@font-face{
-  font-family:'RedHat';
+
+@font-face {
+  font-family: 'RedHat';
   src: url('./assets/Fonts/RedHatDisplay-VariableFont_wght.ttf')
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #D8BACC;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

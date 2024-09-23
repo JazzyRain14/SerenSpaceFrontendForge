@@ -4,7 +4,7 @@ import Frame49 from '../assets/Images/Frame 49.png'
 import Scope from '../assets/Images/Search.png'
 const Section1 = () => {
     return (
-        <section className='flex flex-col bg-hero-pattern h-auto w-full bg-no-repeat bg-center max-lg:px-[28px] lg:px-[58px] bg-cover py-5'>
+        <section className='flex flex-col bg-hero-pattern h-auto w-full bg-no-repeat bg-center max-lg:px-[28px] max-sm:px-[10px] lg:px-[58px] bg-cover py-5'>
             <NavBar />
             <div className='flex max-tablet:flex-col-reverse flex-row justify-between h-full my-5 max-md:gap-6 gap-10 items-center'>
                 {/* Text */}
@@ -29,18 +29,18 @@ const Section1 = () => {
             </div>
             {/* input */}
             <div className=' flex tablet:w-1/2 max-tablet:w-full items-center bg-white px-2 md:py-2 max-md:py-1 rounded-full justify-between'>
-                <select name="mySelect" className=' pr-6 outline-none'>
+                <select name="mySelect" className=' pr-6 max-sm:pr-0 outline-none'>
                     <option value="Therapist">Therapist</option>
                 </select>
 
                 <input
                     type="text"
                     placeholder='City, Zip Code'
-                    className='border-l border-ashh px-2 ml-2 outline-none flex-1'
+                    className='border-l border-ashh px-2 max-sm:px-0 ml-2 outline-none flex-1'
 
                 />
-                <button className='flex items-center justify-center gap-2 max-md:gap-1 bg-primary py-4 px-5 rounded-full text-white'>
-                    Search
+                <button className='flex items-center justify-center gap-2 max-md:gap-1 bg-primary py-4 px-5 max-sm:px-3 max-sm:text-sm max-sm:py-2 rounded-full text-white'>
+                    <span className='max-sm:hidden'>Search</span>
                     <img src={Scope} alt="" className='max-md:w-[16px] md:w-[20px]' />
                 </button>
             </div>
